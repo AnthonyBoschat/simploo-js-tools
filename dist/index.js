@@ -1,1 +1,1 @@
-export { withClass } from "./tools/withClass";
+export { withClass } from "./tools/withClass.js";
