@@ -1,3 +1,1 @@
-export function hello(): string {
-  return "Hello depuis @simploo/js-tools"
-}
+export { withClass, type ClassValue } from "./tools/withClass"

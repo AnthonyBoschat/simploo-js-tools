@@ -1,1 +1,1 @@
-export declare function hello(): string;
+export { withClass, type ClassValue } from "./tools/withClass";

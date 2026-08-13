@@ -1,3 +1,1 @@
-export function hello() {
-    return "Hello depuis @simploo/js-tools";
-}
+export { withClass } from "./tools/withClass";
