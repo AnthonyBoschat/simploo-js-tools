@@ -1,6 +1,6 @@
 {
     "name": "@simploo/js-tools",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Fonctions utilitaires JavaScript.",
     "license": "ISC",
     "author": "Anthony Boschat",
@@ -9,16 +9,16 @@
     "types": "./dist/index.d.ts",
     "exports": {
         ".": {
-        "types": "./dist/index.d.ts",
-        "import": "./dist/index.js"
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
         }
     },
     "files": [
         "dist"
     ],
     "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AnthonyBoschat/simploo-js-tools.git"
+        "type": "git",
+        "url": "git+https://github.com/AnthonyBoschat/simploo-js-tools.git"
     },
     "scripts": {
         "build": "tsc",
