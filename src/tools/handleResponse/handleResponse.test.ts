@@ -54,7 +54,7 @@ describe("handleResponse", () => {
     })
 
     test("Normalise le status à 0 quand l'erreur n'a pas de réponse (erreur réseau)", async () => {
-        const onError    = vi.fn()
+        const onError      = vi.fn()
         const networkError = new Error("Network Error")
 
         await handleResponse({
@@ -70,8 +70,8 @@ describe("handleResponse", () => {
     })
 
     test("Normalise data à null quand la réponse n'a pas de corps", async () => {
-        const onError = vi.fn()
-        const rejection = { response: { status: 500 } }
+        const onError    = vi.fn()
+        const rejection  = { response: { status: 500 } }
 
         await handleResponse({
             request: () => Promise.reject(rejection),
@@ -92,8 +92,8 @@ describe("handleResponse", () => {
     })
 
     test("Capture une exception synchrone levée par request", async () => {
-        const onError = vi.fn()
-        const syncError = new Error("sync failure")
+        const onError    = vi.fn()
+        const syncError  = new Error("sync failure")
 
         await handleResponse({
             request: () => {

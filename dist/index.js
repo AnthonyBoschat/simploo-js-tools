@@ -1,1 +1,14 @@
 export { withClass } from "./tools/withClass/withClass.js";
+export { checkPassword } from "./tools/checkPassword/checkPassword.js";
+export { REGEX } from "./tools/regex/regex.js";
+export { handleResponse } from "./tools/handleResponse/handleResponse.js";
+export { string } from "./tools/string/index.js";
+export { number } from "./tools/number/index.js";
+export { array } from "./tools/array/index.js";
+export { object } from "./tools/object/index.js";
+export { async } from "./tools/async/index.js";
+export * from "./tools/string/index.js";
+export * from "./tools/number/index.js";
+export * from "./tools/array/index.js";
+export * from "./tools/object/index.js";
+export * from "./tools/async/index.js";
